@@ -6,7 +6,9 @@ GUI界面设计：
 
 菜单界面：  
 
+<div align=center>
 ![image](https://github.com/666uuuu/S-AES/blob/main/images/img.png)
+</div>
 ​
 <p align="center">图1 菜单界面</p>
 

@@ -6,12 +6,12 @@ GUI界面设计：
 
 菜单界面：  
 
-![images/img.png](https://github.com/666uuuu/S-AES/blob/3f043a819f162189f20378c234e805e25739a56a/images/img.png)
+![image](https://github.com/666uuuu/S-AES/blob/3f043a819f162189f20378c234e805e25739a56a/images/img.png)
 ​
 <p align="center">图1 菜单界面</p>
 
 点击第一个按钮后进入基础界面：  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/ebfa81c8-223d-4b9e-9d2c-b64c1afceb4c)
+![image](https://github.com/666uuuu/S-AES/blob/3f043a819f162189f20378c234e805e25739a56a/images/img_1.png)
 ​
 <p align="center">图2 基础界面</p>
 

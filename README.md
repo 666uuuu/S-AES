@@ -6,35 +6,35 @@ GUI界面设计：
 
 菜单界面：  
 
-![image](https://github.com/666uuuu/S-AES/blob/3f043a819f162189f20378c234e805e25739a56a/images/img.png)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img.png)
 ​
 <p align="center">图1 菜单界面</p>
 
 点击第一个按钮后进入基础界面：  
-![image](https://github.com/666uuuu/S-AES/blob/3f043a819f162189f20378c234e805e25739a56a/images/img_1.png)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_1.png)
 ​
 <p align="center">图2 基础界面</p>
 
 当输入和密钥不符合规范时，会报错并提示重新输入（图3，图4，图5）：
 
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/ebfa81c8-223d-4b9e-9d2c-b64c1afceb4c)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img-2.png)
 ​<p align="center">图3 输入明密文</p>
 
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/3c0f96c9-f6cd-4353-9aba-47466de29120)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_3.png)
 <p align="center">图4 明密文不合规</p>
 
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/3c0f96c9-f6cd-4353-9aba-47466de29120)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_4.png)
 <p align="center">图5 密钥不合规</p>
 
 
 测试明文：1111,0000,1111,0000     密钥：1010101010101010  
 加密测试：  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/3c0f96c9-f6cd-4353-9aba-47466de29120)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_5.png)
 <p align="center">图6 加密测试</p>
 
 生成密文：0011,0001,0010,0011  
 解密测试：  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/3c0f96c9-f6cd-4353-9aba-47466de29120)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_6.png)
 <p align="center">图7 解密测试</p>
 
 生成明文：1111,0000,1111,0000  
@@ -44,12 +44,12 @@ GUI界面设计：
 
 我们组的二进制明文加密测试：  
 
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/2cf963a7-50c8-404b-9304-a356ad76cf8e)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_7.png)
 ​														<p align="center">图8 我方二进制加密</p>
 
 
 交叉测试组的加密结果：  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/380412f8-e1c9-47d7-992c-36ec8d56fac9)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_8.png)
 ​													<p align="center">图9 对方二进制加密</p>
 
 9,15,9,8 即指 1001,1111,1001,1000,故密文相同  
@@ -65,12 +65,12 @@ GUI界面设计：
 
 测试明文：cd 
 
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/88f1c4d6-8406-4e32-a7eb-075b26dddba3)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_9.png)
 ​													<p align="center">图10 ASCII码字符串加密</p>
 故测试明文 cd 生成密文：n¾ 
 
 测试密文： n¾
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/21686634-bae2-448f-b040-436dfb9ec64b)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_10.png)
 ​													<p align="center">图11 ASCII字符串解密</p>
 故测试密文 n¾ 生成明文： cd
 
@@ -81,7 +81,7 @@ GUI界面设计：
 #### 第四关 多重加密
 
 GUI界面：
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/25466a49-d393-4eb5-b217-e3301593fc55)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_11.png)
 ​										<p align="center">图12 多重加密界面</p>
 
 
@@ -92,12 +92,12 @@ GUI界面：
 密钥：  
 1100110011001100  
 0011001100110011
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/25466a49-d393-4eb5-b217-e3301593fc55)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_12.png)
 ​										<p align="center">图13 双重加密测试</p>
 
 生成密文：1100,1011,1000,0110  
 用该密文解密：
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/25466a49-d393-4eb5-b217-e3301593fc55)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_13.png)
 ​										<p align="center">图14 双重解密测试</p>
 生成明文：1111,0000,1111,0000  
 
@@ -110,7 +110,7 @@ GUI界面：
 密文：1011,0110,0111,1010  
 找到的密钥较多，故只打印输出前16bits为0101111100001010的密钥  
 破解时间及密钥为：  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/25466a49-d393-4eb5-b217-e3301593fc55)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_14.png)
 ​										<p align="center">图15 输出结果</p>
 
 
@@ -126,12 +126,12 @@ GUI界面：
 1100110011001100  
 0011001100110011  
 1010101010101010
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/25466a49-d393-4eb5-b217-e3301593fc55)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_15.png)
 ​										<p align="center">图16 三重加密测试</p>
 生成密文：1001,0000,1000,0101
 
 用该密文解密：
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/25466a49-d393-4eb5-b217-e3301593fc55)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_16.png)
 ​										<p align="center">图17 三重解密测试</p>
 
 生成明文：1111,0000,1111,0000  
@@ -145,20 +145,20 @@ GUI界面：
 #### 第五关：工作模式
 
 GUI界面：
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_17.png)
 ​											<p align="center">图18 CBC加解密界面</p>
 
 可通过三种方式输入明密文：  
 1.直接在第一个文本框输入  
 2.选择随机生成明密文，指定行数后会自动在第一个文本框随机生成相应行数的明密文  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_18.png)
 ​											<p align="center">图19 输入行数</p>
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_19.png)
 ​											<p align="center">图20 在文本框随机生成</p>
 3.选择读取文件，在文本框中显示文件内容  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_20.png)
 ​											<p align="center">图21 选择文件</p>
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_21.png)
 ​											<p align="center">图22 在文本框显示</p>
 
 加解密结束后可将文本框显示的结果保存为文件，方便后续操作  
@@ -168,15 +168,15 @@ GUI界面：
 密钥：111100001111000  
 初始化向量：1010010110100101  
 加密后将密文保存在ciphertexts文件中  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_22.png)
 ​											<p align="center">图23 CBC加密</p>  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_23.png)
 ​											<p align="center">图24 保存结果</p>  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_24.png)
 ​											<p align="center">图25 保存成功</p>  
 
 读取ciphertexts文件输入文本框进行解密，并将生成的明文保存在plaintexts中：  
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_25.png)
 ​											<p align="center">图26 CBC解密</p>  
   
 从（图23，图26）中可看出解密得到的结果与一开始随机生成的密文相同  
@@ -184,7 +184,7 @@ GUI界面：
 CBC加解密结果一致
 
 在此基础上，把第一行的密文从1010,1011,1011,1101改为1111,0000,1111,0000进行解密：
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/76fb6ab5-5741-4f8e-881e-df16304ea532)
+![image](https://github.com/666uuuu/S-AES/blob/main/images/img_26.png)
 ​											<p align="center">图27 修改密文后解密</p>  
 
 从解密结果可以看出，图26与图27相比，明文结果只有前2行发生了变化

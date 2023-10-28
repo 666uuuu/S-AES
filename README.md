@@ -6,7 +6,7 @@ GUI界面设计：
 
 菜单界面：  
 
-![image](https://github.com/Xialanshan/S_DES/assets/110965468/2e2002f7-71e8-4ebd-a651-cc78c12eea20)
+![images/img.png](https://github.com/666uuuu/S-AES/blob/3f043a819f162189f20378c234e805e25739a56a/images/img.png)
 ​
 <p align="center">图1 菜单界面</p>
 
